@@ -1,0 +1,21 @@
+/* Add application styles & imports to this file! */
+html, body { height: 100%; }
+body { margin: 20px; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+table {
+  width: 100%;
+  margin: 20px auto;
+  table-layout: auto;
+  text-align: center;
+  border: solid 1px;
+}
+
+td {
+  padding: 10px;
+  border: solid 1px;
+}
+
+.stephighlight {
+  background: yellow;
+}

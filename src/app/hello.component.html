@@ -1,0 +1,5 @@
+<br>
+<div *ngIf="( selectedOpData$ | async ) as opData">
+<p *ngFor="let s of opData | slice:0:1">Operator Name: {{ s.operatorName }}</p>
+  
+</div>

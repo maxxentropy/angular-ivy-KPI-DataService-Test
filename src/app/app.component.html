@@ -1,0 +1,10 @@
+
+<div *ngIf="( OperatorData$ | async ) as opData">
+
+  <p *ngFor=" let s of opData | slice:0:1">
+    OperatorName:  {{ s.operatorName }}
+  </p>
+
+</div>
+
+<app-hello></app-hello>
