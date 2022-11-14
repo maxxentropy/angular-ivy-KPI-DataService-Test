@@ -1,8 +1,17 @@
 
+    <div class="main-container">
+    <div class="header">
+      <img class="horizontal-img" src="./assets/images/VALLORBS-light-text.png"/>
+    </div>
+    <img class="vertical-img" src="./assets/images/OperatorEfficiency-light.png">
+
+
+
+
 <div *ngIf="( OperatorData$ | async ) as opData">
 
   <p *ngFor=" let s of opData | slice:0:1">
-    OperatorName:  {{ s.operatorName }}
+    Operator:  {{ s.operatorName }}
   </p>
 
 </div>

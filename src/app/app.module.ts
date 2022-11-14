@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { OperatorDataService } from './operator-data-service';
+import { OperatorDataService } from './shared/services/operator-data.service';
 
 @NgModule({
   imports:      [ BrowserModule, HttpClientModule, HttpClientInMemoryWebApiModule.forRoot(OperatorDataService), FormsModule ],

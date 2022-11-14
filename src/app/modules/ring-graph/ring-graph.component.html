@@ -1,0 +1,13 @@
+<div class="prod-ring-graph">
+  <div class="scrap-efficiency">
+    <label for="scrapSlider">Production Efficiency</label>
+    <div id="readout">
+      <svg class="ring" viewBox="0 0 100 100">
+          <circle r="25" cx="50" cy="50" id="pie" strokeDasharray="0, 1.58" />
+          <circle r="35" cx="50" cy="50" id="inner" />
+      </svg>
+      <output for="scrapSlider">25%</output>
+    </div>
+    <input hidden="true" type="range" min="0" max="100" value="90" id="scrapSlider">
+  </div>
+</div>
